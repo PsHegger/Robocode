@@ -2,13 +2,10 @@ package com.pshegger.robocode;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 
 import robocode.Robot;
 import robocode.RobotDeathEvent;
-import robocode.RoundEndedEvent;
 import robocode.ScannedRobotEvent;
 
 public class Scout extends Robot {
@@ -81,7 +78,7 @@ public class Scout extends Robot {
 
 		@Override
 		public String toString() {
-			return String.format("Enemy (%s) @ (%.2f,%.2f), heading: %.2f°", name, positionX, positionY, heading);
+			return String.format("Enemy (%s) @ (%.2f,%.2f), heading: %.2fï¿½", name, positionX, positionY, heading);
 		}
 	}
 }
